@@ -8,8 +8,6 @@ Santa Claus 🎅 quiere enmarcar los nombres de los niños buenos para decorar s
 - El marco está construido con * y tiene un borde de una línea de ancho.
 - La anchura del marco se adapta automáticamente al nombre más largo más un margen de 1 espacio a cada lado.
 
-***Reglas***:
-
 ```
     createFrame(['midu', 'madeval', 'educalvolpz'])
 
