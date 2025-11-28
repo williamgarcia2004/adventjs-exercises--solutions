@@ -3,7 +3,7 @@ from functools import reduce
 def organizateInventory (inventory):
     def funcion_acumuladora (acc, curr):
         acc[curr["category"]] = acc.get(curr["category"], {})
-        acc[curr["category"]][curr["name"]] = (acc[curr["category"]].get("name") or 0) + curr["quantity"]
+        acc[curr["category"]][curr["name"]] = (acc[curr["category"]].get("name", 0)) + curr["quantity"]
         return acc
 
     return reduce(funcion_acumuladora, inventory, {})
