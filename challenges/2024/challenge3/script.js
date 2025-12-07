@@ -6,6 +6,7 @@ function organizeInventory (inventory) {
     }, {})
 }
 
+// Pruebas
 let inventory = [
     { name: 'doll', quantity: 5, category: 'toys' },
     { name: 'car', quantity: 3, category: 'toys' },

@@ -14,7 +14,7 @@ Recibirás un array de objetos, donde cada objeto representa un juguete y tiene 
 - Si hay juguetes con el mismo nombre en la misma categoría, debes sumar sus cantidades.
 - Si el array está vacío, la función debe devolver un objeto vacío {}.
 
-```
+```js
     const inventory = [
         { name: 'doll', quantity: 5, category: 'toys' },
         { name: 'car', quantity: 3, category: 'toys' },

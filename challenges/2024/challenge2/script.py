@@ -17,6 +17,7 @@ def createFrame(names):
     p_frame += "*" * (palabra_mas_larga + 4) 
     return p_frame
 
+# Pruebas
 names1 = createFrame(['midu'])
 print(names1)
 """

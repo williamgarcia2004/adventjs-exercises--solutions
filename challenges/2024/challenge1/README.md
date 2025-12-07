@@ -3,7 +3,7 @@ Santa Claus 🎅 ha recibido una lista de números mágicos que representan rega
 
 Tu tarea es escribir una función que reciba una lista de números enteros (que pueden incluir duplicados) y devuelva una nueva lista sin duplicados, ordenada en orden ascendente.
 
-```
+```js
     const gifts1 = [3, 1, 2, 3, 4, 2, 5]
     const preparedGifts1 = prepareGifts(gifts1)
     console.log(preparedGifts1) // [1, 2, 3, 4, 5]

@@ -5,7 +5,7 @@ Ayuda a Santa escribiendo una función que reciba una lista de nombres de regalo
 
 # Examples
 
-```
+```js
     const gifts1 = ['car', 'doll#arm', 'ball', '#train']
     const good1 = filterGifts(gifts1)
     console.log(good1)

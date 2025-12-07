@@ -1,6 +1,6 @@
-from functools import reduce
 
 def organizateInventory (inventory):
+    from functools import reduce
     def funcion_acumuladora (acc, curr):
         acc[curr["category"]] = acc.get(curr["category"], {})
         acc[curr["category"]][curr["name"]] = (acc[curr["category"]].get("name", 0)) + curr["quantity"]
@@ -8,6 +8,7 @@ def organizateInventory (inventory):
 
     return reduce(funcion_acumuladora, inventory, {})
 
+# Pruebas
 inventory = [
     { "name": 'doll', "quantity": 5, "category": 'toys' },
     { "name": 'car', "quantity": 3, "category": 'toys' },

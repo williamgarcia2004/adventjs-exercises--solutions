@@ -2,6 +2,7 @@ function filterGifts(gifts) {
     return gifts.filter(gift => !gift.includes("#"))
 }
 
+// Pruebas
 let resultado1 = filterGifts(['car', 'doll#arm', 'ball', '#train'])
 console.log(resultado1)   // Salida -----> ['car', 'ball']
 

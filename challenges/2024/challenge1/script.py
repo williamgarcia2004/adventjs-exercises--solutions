@@ -9,6 +9,8 @@ def prepareGifts(gifts):
     # Retornamos la lista ordenada y sin duplicados 
     return newLista
 
+# Pruebas
+
 gifts1 = [3, 1, 2, 3, 4, 2, 5]
 preparedGifts1 = prepareGifts(gifts1)
 print(preparedGifts1)  # Salida --> [1, 2, 3, 4, 5]
