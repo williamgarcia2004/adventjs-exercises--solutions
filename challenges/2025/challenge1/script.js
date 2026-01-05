@@ -1,14 +1,14 @@
 function filterGifts(gifts) {
-    return gifts.filter(gift => !gift.includes("#"))
-}
+    return gifts.filter(gift => !gift.includes("#"));
+};
 
 // Pruebas
-let resultado1 = filterGifts(['car', 'doll#arm', 'ball', '#train'])
-console.log(resultado1)   // Salida -----> ['car', 'ball']
+let resultado1 = filterGifts(['car', 'doll#arm', 'ball', '#train']);
+console.log(resultado1);   // Salida -----> ['car', 'ball']
 
-let resultado2 = filterGifts(['#broken', '#rusty'])
-console.log(resultado2)   // Salida -----> []
+let resultado2 = filterGifts(['#broken', '#rusty']);
+console.log(resultado2);   // Salida -----> []
 
-let resultado3 = filterGifts([])      
-console.log(resultado3)   // Salida -----> []
+let resultado3 = filterGifts([]);      
+console.log(resultado3);   // Salida -----> []
 

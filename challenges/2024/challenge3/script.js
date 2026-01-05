@@ -1,10 +1,10 @@
 function organizeInventory (inventory) {
     return inventory.reduce((acc, curr) => {
-        acc[curr.category] ??= {}
-        acc[curr.category][curr.name] = (acc[curr.category][curr.name] || 0) + curr.quantity
-        return acc
-    }, {})
-}
+        acc[curr.category] ??= {};
+        acc[curr.category][curr.name] = (acc[curr.category][curr.name] || 0) + curr.quantity;
+        return acc;
+    }, {});
+};
 
 // Pruebas
 let inventory = [
@@ -13,10 +13,8 @@ let inventory = [
     { name: 'ball', quantity: 2, category: 'sports' },
     { name: 'car', quantity: 2, category: 'toys' },
     { name: 'racket', quantity: 4, category: 'sports' }
-]
-
+];
 // console.log(organizeInventory(inventory))
-
 /*
     Salida
     {
@@ -29,9 +27,8 @@ const inventory2 = [
     { name: 'book', quantity: 10, category: 'education' },
     { name: 'book', quantity: 5, category: 'education' },
     { name: 'paint', quantity: 3, category: 'art' }
-]
-
-console.log(organizeInventory(inventory2))
+];
+console.log(organizeInventory(inventory2));
 /*
     Salida
     {

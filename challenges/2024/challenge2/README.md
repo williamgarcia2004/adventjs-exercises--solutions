@@ -10,7 +10,6 @@ Santa Claus 🎅 quiere enmarcar los nombres de los niños buenos para decorar s
 
 ```js
     createFrame(['midu', 'madeval', 'educalvolpz'])
-
     // Resultado esperado:
     ***************
     * midu        *
@@ -19,14 +18,12 @@ Santa Claus 🎅 quiere enmarcar los nombres de los niños buenos para decorar s
     ***************
 
     createFrame(['midu'])
-
     // Resultado esperado:
     ********
     * midu *
     ********
 
     createFrame(['a', 'bb', 'ccc'])
-
     // Resultado esperado:
     *******
     * a   *
@@ -35,4 +32,11 @@ Santa Claus 🎅 quiere enmarcar los nombres de los niños buenos para decorar s
     *******
 
     createFrame(['a', 'bb', 'ccc', 'dddd'])
+    // Resultado esperado:
+    ********
+    * a    *
+    * bb   *
+    * ccc  *
+    * dddd *
+    ********
 ```
